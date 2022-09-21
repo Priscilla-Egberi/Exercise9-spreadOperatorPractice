@@ -11,6 +11,7 @@ function App() {
 
   function addText() {
     items((item) => [...item, text]);
+    setText("")
   }
   return (
     <div className="container">
